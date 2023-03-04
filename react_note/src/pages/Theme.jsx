@@ -10,6 +10,7 @@ export default function Theme() {
   const url = 'https://jsonplaceholder.typicode.com/users';
   const userController = new AbortController();
 
+  // handling search with useCallback(), but fetching user data is still re-render the page
   const handleSearch = useCallback(() => {
     console.log('keyword : ',  keyword);
   }, [keyword]);
