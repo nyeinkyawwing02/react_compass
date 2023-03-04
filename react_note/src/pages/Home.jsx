@@ -1,3 +1,5 @@
+// useEffect() note
+
 import { useEffect, useState } from "react"
 
 export default function Example() {
@@ -6,6 +8,7 @@ export default function Example() {
   const photoController = new AbortController();
 
   let fetchPhoto = async () => {
+    // fetching api data with timeout
     setTimeout(async () => {
       const data = await (
         await fetch(url, { signal: photoController.signal })
@@ -17,12 +20,11 @@ export default function Example() {
   useEffect(() => {
     fetchPhoto();
 
+    // cleanup function
     () => {
       photoController.abort();
     }
   }, []);
-
-  console.log('photos', photos);
 
   return (
     <div className="bg-white">
