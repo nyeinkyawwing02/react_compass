@@ -1,0 +1,53 @@
+{
+    "pricing": [
+        {
+            "id": 1,
+            "plan_scheme": "Free",
+            "benefitial": [
+                "content 1",
+                "content 1",
+                "content 1",
+                "content 1",
+                "content 1"
+            ],
+            "short_description": "Lorem ipsum dolor sit amet adipisicing elit."
+        },
+        {
+            "id": 2,
+            "plan_scheme": "Best",
+            "active": true,
+            "benefitial": [
+                "content 1",
+                "content 1",
+                "content 1",
+                "content 1",
+                "content 1"
+            ],
+            "short_description": "Lorem ipsum dolor sit amet adipisicing elit."
+        },
+        {
+            "id": 3,
+            "plan_scheme": "Medium",
+            "benefitial": [
+                "content 1",
+                "content 1",
+                "content 1",
+                "content 1",
+                "content 1"
+            ],
+            "short_description": "Lorem ipsum dolor sit amet adipisicing elit."
+        },
+        {
+            "id": 4,
+            "plan_scheme": "Fair",
+            "benefitial": [
+                "content 1",
+                "content 1",
+                "content 1",
+                "content 1",
+                "content 1"
+            ],
+            "short_description": "Lorem ipsum dolor sit amet adipisicing elit."
+        }
+    ]
+}
